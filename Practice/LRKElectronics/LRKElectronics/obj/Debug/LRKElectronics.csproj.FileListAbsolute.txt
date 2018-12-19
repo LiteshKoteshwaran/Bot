@@ -1,0 +1,234 @@
+D:\new\LRKElectronics\LRKElectronics\bin\LRKElectronics.dll.config
+D:\new\LRKElectronics\LRKElectronics\bin\LRKElectronics.dll
+D:\new\LRKElectronics\LRKElectronics\bin\LRKElectronics.pdb
+D:\new\LRKElectronics\LRKElectronics\bin\Autofac.dll
+D:\new\LRKElectronics\LRKElectronics\bin\Chronic.dll
+D:\new\LRKElectronics\LRKElectronics\bin\EntityFramework.dll
+D:\new\LRKElectronics\LRKElectronics\bin\EntityFramework.SqlServer.dll
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.Azure.Documents.Client.dll
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.Azure.KeyVault.Core.dll
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Builder.Autofac.dll
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Builder.Azure.dll
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Builder.dll
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Builder.History.dll
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Connector.dll
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.Data.Edm.dll
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.Data.OData.dll
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.Data.Services.Client.dll
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.IdentityModel.Logging.dll
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.IdentityModel.Protocols.dll
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.IdentityModel.Tokens.dll
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.Rest.ClientRuntime.dll
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.WindowsAzure.Configuration.dll
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.WindowsAzure.Storage.dll
+D:\new\LRKElectronics\LRKElectronics\bin\Newtonsoft.Json.dll
+D:\new\LRKElectronics\LRKElectronics\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\new\LRKElectronics\LRKElectronics\bin\System.Net.Http.Formatting.dll
+D:\new\LRKElectronics\LRKElectronics\bin\System.Spatial.dll
+D:\new\LRKElectronics\LRKElectronics\bin\System.Web.Http.dll
+D:\new\LRKElectronics\LRKElectronics\bin\System.Web.Http.WebHost.dll
+D:\new\LRKElectronics\LRKElectronics\bin\Autofac.xml
+D:\new\LRKElectronics\LRKElectronics\bin\EntityFramework.xml
+D:\new\LRKElectronics\LRKElectronics\bin\EntityFramework.SqlServer.xml
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.Azure.Documents.Client.xml
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.Azure.KeyVault.Core.xml
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Builder.pdb
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Builder.xml
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Builder.Autofac.pdb
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Builder.Autofac.xml
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Builder.Azure.pdb
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Builder.Azure.xml
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Builder.History.pdb
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Builder.History.xml
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Connector.xml
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.Data.Edm.xml
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.Data.OData.xml
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.Data.Services.Client.xml
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.IdentityModel.Logging.xml
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.IdentityModel.Protocols.xml
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.IdentityModel.Tokens.xml
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.Rest.ClientRuntime.xml
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.WindowsAzure.Configuration.xml
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.WindowsAzure.Storage.pdb
+D:\new\LRKElectronics\LRKElectronics\bin\Microsoft.WindowsAzure.Storage.xml
+D:\new\LRKElectronics\LRKElectronics\bin\Newtonsoft.Json.xml
+D:\new\LRKElectronics\LRKElectronics\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\new\LRKElectronics\LRKElectronics\bin\System.Net.Http.Formatting.xml
+D:\new\LRKElectronics\LRKElectronics\bin\System.Spatial.xml
+D:\new\LRKElectronics\LRKElectronics\bin\System.Web.Http.xml
+D:\new\LRKElectronics\LRKElectronics\bin\System.Web.Http.WebHost.xml
+D:\new\LRKElectronics\LRKElectronics\bin\ar\Microsoft.Bot.Builder.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\cs\Microsoft.Bot.Builder.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\en\Microsoft.Bot.Builder.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\es\Microsoft.Bot.Builder.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\fa\Microsoft.Bot.Builder.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\fr\Microsoft.Bot.Builder.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\it\Microsoft.Bot.Builder.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\ja\Microsoft.Bot.Builder.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\nl\Microsoft.Bot.Builder.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\pt-BR\Microsoft.Bot.Builder.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\ru\Microsoft.Bot.Builder.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\de\Microsoft.Data.Edm.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\es\Microsoft.Data.Edm.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\it\Microsoft.Data.Edm.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\de\Microsoft.Data.OData.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\es\Microsoft.Data.OData.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\fr\Microsoft.Data.OData.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\it\Microsoft.Data.OData.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\ja\Microsoft.Data.OData.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\ko\Microsoft.Data.OData.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\ru\Microsoft.Data.OData.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\de\Microsoft.Data.Services.Client.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\es\Microsoft.Data.Services.Client.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\fr\Microsoft.Data.Services.Client.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\it\Microsoft.Data.Services.Client.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\ja\Microsoft.Data.Services.Client.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\ko\Microsoft.Data.Services.Client.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\ru\Microsoft.Data.Services.Client.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\de\System.Spatial.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\es\System.Spatial.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\fr\System.Spatial.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\it\System.Spatial.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\ja\System.Spatial.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\ko\System.Spatial.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\ru\System.Spatial.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\zh-Hans\System.Spatial.resources.dll
+D:\new\LRKElectronics\LRKElectronics\bin\zh-Hant\System.Spatial.resources.dll
+D:\new\LRKElectronics\LRKElectronics\obj\Debug\LRKElectronics.csprojAssemblyReference.cache
+D:\new\LRKElectronics\LRKElectronics\obj\Debug\LRKElectronics.csproj.CoreCompileInputs.cache
+D:\new\LRKElectronics\LRKElectronics\obj\Debug\LRKElectronics.csproj.CopyComplete
+D:\new\LRKElectronics\LRKElectronics\obj\Debug\LRKElectronics.dll
+D:\new\LRKElectronics\LRKElectronics\obj\Debug\LRKElectronics.pdb
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\LRKElectronics.dll.config
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\LRKElectronics.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\LRKElectronics.pdb
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Autofac.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Chronic.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\EntityFramework.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\EntityFramework.SqlServer.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.Azure.Documents.Client.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.Azure.KeyVault.Core.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Builder.Autofac.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Builder.Azure.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Builder.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Builder.History.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Connector.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.Data.Edm.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.Data.OData.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.Data.Services.Client.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.IdentityModel.Logging.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.IdentityModel.Protocols.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.IdentityModel.Tokens.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.Rest.ClientRuntime.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.WindowsAzure.Configuration.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.WindowsAzure.Storage.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Newtonsoft.Json.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\System.Net.Http.Formatting.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\System.Spatial.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\System.Web.Http.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\System.Web.Http.WebHost.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Autofac.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\EntityFramework.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\EntityFramework.SqlServer.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.Azure.Documents.Client.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.Azure.KeyVault.Core.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Builder.pdb
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Builder.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Builder.Autofac.pdb
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Builder.Autofac.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Builder.Azure.pdb
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Builder.Azure.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Builder.History.pdb
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Builder.History.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.Bot.Connector.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.Data.Edm.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.Data.OData.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.Data.Services.Client.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.IdentityModel.Logging.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.IdentityModel.Protocols.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.IdentityModel.Tokens.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.Rest.ClientRuntime.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.WindowsAzure.Configuration.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.WindowsAzure.Storage.pdb
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Microsoft.WindowsAzure.Storage.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\Newtonsoft.Json.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\System.Net.Http.Formatting.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\System.Spatial.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\System.Web.Http.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\System.Web.Http.WebHost.xml
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\ar\Microsoft.Bot.Builder.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\cs\Microsoft.Bot.Builder.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\en\Microsoft.Bot.Builder.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\es\Microsoft.Bot.Builder.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\fa\Microsoft.Bot.Builder.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\fr\Microsoft.Bot.Builder.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\it\Microsoft.Bot.Builder.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\ja\Microsoft.Bot.Builder.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\nl\Microsoft.Bot.Builder.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\pt-BR\Microsoft.Bot.Builder.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\ru\Microsoft.Bot.Builder.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\de\Microsoft.Data.Edm.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\es\Microsoft.Data.Edm.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\it\Microsoft.Data.Edm.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\de\Microsoft.Data.OData.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\es\Microsoft.Data.OData.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\fr\Microsoft.Data.OData.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\it\Microsoft.Data.OData.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\ja\Microsoft.Data.OData.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\ko\Microsoft.Data.OData.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\ru\Microsoft.Data.OData.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\de\Microsoft.Data.Services.Client.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\es\Microsoft.Data.Services.Client.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\fr\Microsoft.Data.Services.Client.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\it\Microsoft.Data.Services.Client.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\ja\Microsoft.Data.Services.Client.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\ko\Microsoft.Data.Services.Client.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\ru\Microsoft.Data.Services.Client.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\de\System.Spatial.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\es\System.Spatial.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\fr\System.Spatial.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\it\System.Spatial.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\ja\System.Spatial.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\ko\System.Spatial.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\ru\System.Spatial.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\zh-Hans\System.Spatial.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\bin\zh-Hant\System.Spatial.resources.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\obj\Debug\LRKElectronics.csprojAssemblyReference.cache
+D:\New folder (2)\LRKElectronics\LRKElectronics\obj\Debug\LRKElectronics.csproj.CoreCompileInputs.cache
+D:\New folder (2)\LRKElectronics\LRKElectronics\obj\Debug\LRKElectronics.csproj.CopyComplete
+D:\New folder (2)\LRKElectronics\LRKElectronics\obj\Debug\LRKElectronics.dll
+D:\New folder (2)\LRKElectronics\LRKElectronics\obj\Debug\LRKElectronics.pdb
