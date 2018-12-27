@@ -19,14 +19,14 @@ namespace ElectronicStoreMultiDialog.Dialogs
 
         public async Task StartAsync(IDialogContext context)
         {
-            if (context.UserData.TryGetValue(StateKeys.UserName, out userInfo.Name))
-            {
-                // If the user has already logged in he will b getting    
-                await context.PostAsync($"welcome back {userInfo.Name}");
-                //PromptDialog.Choice(context, this.ForExitingUser, new List<string> { "Shopping", "View Cart" }, "Select Choice", "Not a valid options", 3);
-                context.Wait(MessageReceivedAsync);
-            }
-            else
+            //if (context.UserData.TryGetValue(StateKeys.UserName, out userInfo.Name))
+            //{
+            //    // If the user has already logged in he will b getting    
+            //    await context.PostAsync($"welcome back {userInfo.Name}");
+            //    //PromptDialog.Choice(context, this.ForExitingUser, new List<string> { "Shopping", "View Cart" }, "Select Choice", "Not a valid options", 3);
+            //    context.Wait(MessageReceivedAsync);
+            //}
+            //else
                 context.Wait(MessageReceivedAsync);
 
         }
@@ -85,33 +85,6 @@ namespace ElectronicStoreMultiDialog.Dialogs
         public static void Checkout(IDialogContext context, IAwaitable<object> result)
         {
 
-        }
-
-        private async Task HeroCard(IDialogContext context, IAwaitable<string> result)
-        {
-            var resultMessage = context.MakeMessage();
-            resultMessage.AttachmentLayout = AttachmentLayoutTypes.Carousel;
-            resultMessage.Attachments = new List<Attachment>();
-
-            foreach (var cart in UserInfo.ListuserCarts)
-            {
-                HeroCard heroCard = new HeroCard()
-                {
-                    //Title = Luis.Entity,
-                    //Subtitle = $"{cart.ProductName} starts. {cart.ProductName} reviews. From ${cart.ProductName} per night.",
-                    Images = new List<CardImage>()
-                    {
-                        new CardImage(){Url = " "}
-                    },
-                    Buttons = new List<CardAction>()
-                    {
-                             new CardAction(ActionTypes.ImBack, "Edit", value: "Edit"),
-                    }
-                };
-                resultMessage.Attachments.Add(heroCard.ToAttachment());
-            }
-            await context.PostAsync(resultMessage);
-            //await Cart(context,result);
         }
 
     }

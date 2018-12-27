@@ -23,7 +23,7 @@ namespace ElectronicStoreMultiDialog
                 try
                 {
                     connection.Open();
-                    Selection = cmd.ExecuteScalar().ToString();
+                    Selection = cmd.ExecuteScalar().ToString().ToLower();
                 }
                 catch (Exception ex)
                 {

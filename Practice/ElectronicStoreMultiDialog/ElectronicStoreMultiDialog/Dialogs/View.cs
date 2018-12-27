@@ -1,4 +1,5 @@
-﻿using Microsoft.Bot.Builder.Dialogs;
+﻿using Chronic;
+using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Connector;
 using System;
 using System.Collections.Generic;
@@ -13,8 +14,9 @@ namespace ElectronicStoreMultiDialog.Dialogs
     {
         List<string> list = new List<string>();
         DAL dal = new DAL();
-        static string Description, Price, Category, Brand;
-
+        static string Category, Brand;
+        static string[] Description = new string[10];
+        static string[] Price = new string[10];
         public async Task StartAsync(IDialogContext context)
         {
                 await MessageReceivedAsync(context);
@@ -22,27 +24,45 @@ namespace ElectronicStoreMultiDialog.Dialogs
         }
         private async Task MessageReceivedAsync(IDialogContext context)
         {
+            List<string> ProductsList = new List<string>();
             try
             {
                 if (Luis.EntityType.Contains(Entities.AvailableProductName))
                 {
-                    list = dal.ShowAvailable(Entities.Product);
-                    for (int i = 0; i <list.Count; i++)
+                    ProductsList  = dal.ShowAvailable(Entities.Product);
+                    for (int i = 0; i < Luis.Entity.Count; i++)
                     {
-                        if (Luis.Entity[i].ToLower() == list[i].ToLower())
+                        for (int j = 0; j < ProductsList.Count; j++)
                         {
-                            Description = dal.GetProductDetail(list[i], Entities.Description);
-                            Price = dal.GetProductDetail(list[i], Entities.Price);
+                            if (Luis.Entity[i].ToLower() == ProductsList[j].ToLower())
+                            {
+                                Description[i] = dal.GetProductDetail(ProductsList[j], Entities.Description);
+                                Price[i] = dal.GetProductDetail(ProductsList[j], Entities.Price);
+                                await context.PostAsync("Description: " + Description[i] + " Price: " + Price[i]);
+                            }
                         }
-                        await context.PostAsync(Description+Price);
                     }
+                    await context.PostAsync("Would you want me to add these products into cart");
+                    context.Wait(ResumeAfterOptionSelected);
                 }
-
                 if (Luis.Entity.Count < 2)
                 {
-                    if (Luis.EntityType[0].ToLower() == Entities.Product.ToLower() || Luis.EntityType[0].ToLower() == Entities.Category.ToLower() || Luis.EntityType[0].ToLower() == Entities.Brand.ToLower() || Luis.EntityType[0].ToLower() == Entities.Cart.ToLower()/*|| Luis.EntityType[0].ToLower() == Entities.AvailableCategories.ToLower()*/)
+                    //if (Luis.EntityType.Contains(Entities.AvailableProductName))
+                    //{
+                    //    for (int i = 0; i < Luis.Entity.Count; i++)
+                    //    {
+                    //        await context.PostAsync(Description + Price);
+                    //    }
+                    //}
+
+                    if (Luis.EntityType[0].ToLower() == Entities.Product.ToLower() || Luis.EntityType[0].ToLower() == Entities.Category.ToLower() || Luis.EntityType[0].ToLower() == Entities.Brand.ToLower() || Luis.EntityType[0].ToLower() == Entities.Cart.ToLower() && (!Luis.Entity.Contains(Entities.AvailableProductName)))
                     {
                         list = dal.ShowAvailable(Luis.EntityType[0]);
+                    }
+
+                    if (Luis.EntityType[0].ToLower() == Entities.AvailableCategories.ToLower())
+                    {
+                        list = dal.ShowBrandOnSelection(Luis.Entity[0]);
                     }
 
                     if (Luis.EntityType[0].ToLower() == Entities.AvailableBrands.ToLower())
@@ -55,43 +75,16 @@ namespace ElectronicStoreMultiDialog.Dialogs
                             }
                         }
                     }
-                    if (Luis.EntityType[0].ToLower() == Entities.AvailableProductPrice.ToLower())
+                    //PromptDialog.Choice(context, ResumeAfterOptionSelected, list, Luis.Entity[0], "Not a valid options", 3);
+                    foreach (var ele in list)
                     {
-                        for (int j = 0; j < StateKeys.ListOfBrands.Count; j++)
-                        {
-                            if (Luis.Entity[0].ToLower() == StateKeys.ListOfBrands[j].ToLower())
-                            {
-                                list = dal.ShowAvailableProductsOnSelection(StateKeys.ListOfBrands[j]);
-                            }
-                        }
+                        await context.PostAsync(ele);
                     }
-                    if (Luis.EntityType[0].ToLower() == Entities.AvailableProductDescription.ToLower())
-                    {
-                        for (int j = 0; j < StateKeys.ListOfBrands.Count; j++)
-                        {
-                            if (Luis.Entity[0].ToLower() == StateKeys.ListOfBrands[j].ToLower())
-                            {
-                                list = dal.ShowAvailableProductsOnSelection(StateKeys.ListOfBrands[j]);
-                            }
-                        }
-                    }
-                    if (Luis.EntityType[0].ToLower() == Entities.Category.ToLower())
-                    {
-                        for (int j = 0; j < StateKeys.ListOfBrands.Count; j++)
-                        {
-                            if (Luis.Entity[0].ToLower() == StateKeys.ListOfBrands[j].ToLower())
-                            {
-                                list = dal.ShowAvailableProductsOnSelection(StateKeys.ListOfBrands[j]);
-                            }
-                        }
-                    }
-                    PromptDialog.Choice(context, ResumeAfterOptionSelected, list, Luis.Entity[0], "Not a valid options", 3);
                 }
-                if (Luis.Entity.Count >= 2)
+                if (Luis.Entity.Count >= 2&& !Luis.EntityType.Contains(Entities.AvailableProductName))
                 {
-                    if ((Luis.EntityType[0].ToLower() == Entities.AvailableBrands.ToLower() || Luis.EntityType[1].ToLower() == Entities.AvailableBrands.ToLower()) && (Luis.EntityType[0].ToLower() == Entities.Category.ToLower() || Luis.EntityType[1].ToLower() == Entities.Category.ToLower()))
+                    if ((Luis.EntityType[0].ToLower() == Entities.AvailableBrands.ToLower() || Luis.EntityType[1].ToLower() == Entities.AvailableBrands.ToLower()) && (Luis.EntityType[0].ToLower() == Entities.AvailableCategories.ToLower() || Luis.EntityType[1].ToLower() == Entities.AvailableCategories.ToLower()) && (!(Luis.Entity.Contains(Entities.AvailableProductName)/*&&Luis.Entity.Contains(Entities.AvailableProductName)*/) ))
                     {
-
                         for (int i = 0; i < Luis.Entity.Count; i++)
                         {
                             for (int j = 0; j < StateKeys.ListOfCategory.Count; j++)
@@ -109,6 +102,7 @@ namespace ElectronicStoreMultiDialog.Dialogs
                                 }
                             }
                         }
+                        list = dal.ShowAvailableProductsOnSelectionOfCategoryAndBrand(Category, Brand);
                     }
                     else if ((Luis.EntityType[0].ToLower() == Entities.Brand.ToLower() | Luis.EntityType[1].ToLower() == Entities.Brand.ToLower()) && (Luis.EntityType.Contains(Entities.AvailableCategories)))
                     {
@@ -116,32 +110,52 @@ namespace ElectronicStoreMultiDialog.Dialogs
                         {
                             for (int j = 0; j < StateKeys.ListOfCategory.Count; j++)
                             {
-                                if (Luis.Entity[i]==StateKeys.ListOfCategory[j])
+                                if (Luis.Entity[i] == StateKeys.ListOfCategory[j])
                                 {
                                     list = dal.ShowBrandOnSelection(StateKeys.ListOfCategory[j]);
                                 }
                             }
                         }
                     }
-                    list = dal.ShowAvailableProductsOnSelectionOfCategoryAndBrand(Category, Brand);
-                    PromptDialog.Choice(context, ResumeAfterOptionSelected, list, "Contents based on your selection", "Not a valid options", 3);
+                    //if (Luis.EntityType[0].ToLower() == Entities.AvailableCategories.ToLower()| Luis.EntityType[1].ToLower() == Entities.AvailableCategories.ToLower())
+                    //{
+                    //    for (int j = 0; j < StateKeys.ListOfBrands.Count; j++)
+                    //    {
+                    //        if (Luis.Entity[0].ToLower() == StateKeys.ListOfBrands[j].ToLower())
+                    //        {
+                    //            list = dal.ShowAvailableProductsOnSelectionOfCategoryAndBrand(Luis.EntityType[1].ToLower(), StateKeys.ListOfBrands[j]);
+                    //        }
+                    //    }
+                    //}
+
+                    //PromptDialog.Choice(context, ResumeAfterOptionSelected, list, "Contents based on your selection", "Not a valid options", 3);
+                    foreach(var ele in list)
+                    {
+                        await context.PostAsync(ele);
+                    }
+
                 }
+                await context.PostAsync("What to next?????");
+                context.Wait(ResumeAfterOptionSelected);
             }
             catch (Exception ex)
             {
                 throw ex;
             }
         }
-        public async Task ResumeAfterOptionSelected(IDialogContext context, IAwaitable<object> result)
+        public async Task ResumeAfterOptionSelected(IDialogContext context, IAwaitable<Object> result)
         {
             var message = await result as Activity;
-            Luis.IdentifyUserQueryUsingLuis(message.Text);
+            if(message.Text=="yes")
+            {
+                int i = (Luis.Entity.Count / 2);
+                for(;i<Luis.Entity.Count;i++)
+                {
+                    dal.AddtoCart(Luis.Entity[i]);
+                }
+            }
+            await Luis.IdentifyUserQueryUsingLuis(message.Text);
             await IntentOperations.IdentifyUserIntent(context, result);
-        }
-        public static async Task ResumeAfterOptionDialog(IDialogContext context, IAwaitable<object> result)
-        {
-            View view = new View();
-            await view.ResumeAfterOptionSelected(context,result);
         }
     }
 }

@@ -27,14 +27,14 @@ namespace ElectronicStoreMultiDialog
         }
         internal List<string> ShowAvailableProductsOnSelection(string selection)
         {
-            Query = "select Product.Name from Product join Brand on Brand.Id = Product.BrandId join category on category.Id = Product.categoryid  join SubCategory on Product.SubCategoryId = SubCategory.SubCategoryId where(Brand.Name = '" + selection + "' or SubCategory.subcategoryName = '" + selection + "'or Category.name = '" + selection + "')";  
+            Query = "select distinct Product.Name from Product join Brand on Brand.Id = Product.BrandId join category on category.Id = Product.categoryid  join SubCategory on Product.SubCategoryId = SubCategory.SubCategoryId where(Brand.Name = '" + selection + "' or SubCategory.subcategoryName = '" + selection + "'or Category.name = '" + selection + "')";  
             list = sqlOp.GetListOnSelection(Query);
             return list;
         }
 
         internal List<string> ShowAvailableProductsOnSelectionOfCategoryAndBrand(string Category, string Brand)
         {
-            Query = "select Product.Name from Product join Brand on Brand.Id = Product.BrandId join category on category.Id = Product.categoryid  join SubCategory on Product.SubCategoryId = SubCategory.SubCategoryId where(Brand.Name = '" + Brand + "' and SubCategory.subcategoryName = '" + Category + "')";
+            Query = "select distinct Product.Name from Product join Brand on Brand.Id = Product.BrandId join category on category.Id = Product.categoryid  join SubCategory on Product.SubCategoryId = SubCategory.SubCategoryId where(Brand.Name = '" + Brand + "' and (SubCategory.subcategoryName = '" + Category + "'or Category.name = '" + Category + "'))";
             list = sqlOp.GetListOnSelection(Query);
             return list;
         }
@@ -46,17 +46,20 @@ namespace ElectronicStoreMultiDialog
             return Detail;
         }
 
-        internal List<string> GetDetail(string ProductName, string RequiredDetail)
-        {
-            Query = "select distinct " + RequiredDetail + " from Product where Name = '" + ProductName + "'";
-            list = sqlOp.GetListOnSelection(Query);
-            return list;
-        }
-        internal List<string> Get(string ProductName, string RequiredDetail)
-        {
-            Query = "select distinct " + RequiredDetail + " from Product where Name = '" + ProductName + "'";
-            list = sqlOp.GetListOnSelection(Query);
-            return list;
-        }
+        //internal List<string> GetDetail(string ProductName, string RequiredDetail)
+        //{
+        //    Query = "select distinct " + RequiredDetail + " from Product where Name = '" + ProductName + "'";
+        //    list = sqlOp.GetListOnSelection(Query);
+        //    return list;
+        //}
+        //internal List<string> Get(string ProductName, string RequiredDetail)
+        //{
+        //    Query = "select distinct " + RequiredDetail + " from Product where Name = '" + ProductName + "'";
+        //    list = sqlOp.GetListOnSelection(Query);
+        //    return list;
+        //}
+
+
+
     }
 }

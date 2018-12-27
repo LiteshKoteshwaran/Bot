@@ -102,7 +102,16 @@ namespace ElectronicStoreMultiDialog
 
         private static Task ResumeAfterOptionDialog(IDialogContext context, IAwaitable<object> result)
         {
-            throw new NotImplementedException();
+            context.Call(new RootDialog(), ResumeAfterOptionDialog);
+            return Task.CompletedTask;
         }
+    }
+
+
+    public class Details
+    {
+        internal string Name;
+        internal string Description;
+        internal string Image;
     }
 }
